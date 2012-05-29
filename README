@@ -1,2 +1,4 @@
-Currently a work in progress and only works if the repo has been cloned
-previously. I plan on fixing that later.
+Meant to be used with a Jenkins job, but can be run manually.
+
+If the deployment directory does not exist, the git repo is cloned.
+If it does, the repo is pulled and the desired branch is checked out.
